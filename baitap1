@@ -1,0 +1,5 @@
+delete from SinhVien where MaSV > 0;
+insert INTO SinhVien (MaSV, HoTen,NgaySinh) values
+(1,'nguyen thanh loi', '2001-01-30'),
+ (2,'nguyen thanh lop', '2001-01-30');
+select * from SinhVien;
